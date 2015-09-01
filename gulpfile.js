@@ -11,7 +11,7 @@ gulp.task('jshint', function() {
 });
 
 gulp.task('test', function() {
-  return gult.src('test/**/*.js')
+  return gulp.src('test/**/*.js')
     .pipe(gulpMocha({reporter: 'nyan'}));
 });
 
