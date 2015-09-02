@@ -4,7 +4,7 @@
   "description": "an example app that greets and other stuff",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test",
+    "test": "./node_modules/mocha/bin/mocha",
     "custom": "echo 'this is some custom text'",
     "start": "echo 'this would start a server'"
   },

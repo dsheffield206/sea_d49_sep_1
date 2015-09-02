@@ -15,4 +15,4 @@ gulp.task('test', function() {
     .pipe(gulpMocha({reporter: 'nyan'}));
 });
 
-gulp.task('default', ['jshint']);
+gulp.task('default', ['jshint', 'test']);
